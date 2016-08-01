@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script type="text/javascript">
+window.onload=function(){
+   var para=document.getElementById("example");
+   alert(typeof para.nodeName);
+   alert(typeof para.style);
+
+   //当样式是内联时候获取样式的方法
+   alert(para.style.color);
+   alert(para.style.fontFamily);
+}
+	</script>
+
+</head>
+<body>
+	<p id="example">An example of a paragraph.</p>
+</body>
+</html>
